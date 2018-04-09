@@ -7,9 +7,9 @@
     <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
     <link rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Coda">
     <link rel="stylesheet" href="css/app.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 <body>
-
     <div class="container">
         <header>
             <h1>Matching Game</h1>
@@ -22,65 +22,70 @@
         		<li><i class="fa fa-star"></i></li>
         	</ul>
 
-        	<span class="moves">3</span> Moves
+        	<span class="moves">0</span> Moves
+
+            <div class="timer"></div>
 
             <div class="restart">
-        		<i class="fa fa-repeat"></i>
+        		<i class="fa fa-play"></i>
         	</div>
         </section>
 
         <ul class="deck">
             <li class="card">
-                <i class="fa fa-diamond"></i>
+                <i id = "1" class="fa fa-diamond"></i>
             </li>
             <li class="card">
-                <i class="fa fa-paper-plane-o"></i>
-            </li>
-            <li class="card match">
-                <i class="fa fa-anchor"></i>
+                <i id = "2" class="fa fa-paper-plane-o"></i>
             </li>
             <li class="card">
-                <i class="fa fa-bolt"></i>
+                <i id = "3" class="fa fa-anchor"></i>
             </li>
             <li class="card">
-                <i class="fa fa-cube"></i>
-            </li>
-            <li class="card match">
-                <i class="fa fa-anchor"></i>
+                <i id = "4" class="fa fa-bolt"></i>
             </li>
             <li class="card">
-                <i class="fa fa-leaf"></i>
+                <i id = "5" class="fa fa-cube"></i>
             </li>
             <li class="card">
-                <i class="fa fa-bicycle"></i>
+                <i id = "6" class="fa fa-anchor"></i>
             </li>
             <li class="card">
-                <i class="fa fa-diamond"></i>
+                <i id = "7" class="fa fa-leaf"></i>
             </li>
             <li class="card">
-                <i class="fa fa-bomb"></i>
+                <i id = "8" class="fa fa-bicycle"></i>
             </li>
             <li class="card">
-                <i class="fa fa-leaf"></i>
+                <i id = "9" class="fa fa-diamond"></i>
             </li>
             <li class="card">
-                <i class="fa fa-bomb"></i>
-            </li>
-            <li class="card open show">
-                <i class="fa fa-bolt"></i>
+                <i id = "10" class="fa fa-bomb"></i>
             </li>
             <li class="card">
-                <i class="fa fa-bicycle"></i>
+                <i id = "11" class="fa fa-leaf"></i>
             </li>
             <li class="card">
-                <i class="fa fa-paper-plane-o"></i>
+                <i id = "12" class="fa fa-bomb"></i>
             </li>
             <li class="card">
-                <i class="fa fa-cube"></i>
+                <i id = "13" class="fa fa-bolt"></i>
+            </li>
+            <li class="card">
+                <i id = "14" class="fa fa-bicycle"></i>
+            </li>
+            <li class="card">
+                <i id = "15" class="fa fa-paper-plane-o"></i>
+            </li>
+            <li class="card">
+                <i id = "16" class="fa fa-cube"></i>
             </li>
         </ul>
     </div>
 
     <script src="js/app.js"></script>
-</body>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </body>
 </html>
