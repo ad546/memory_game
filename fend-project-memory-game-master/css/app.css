@@ -1,6 +1,9 @@
 html {
     box-sizing: border-box;
 }
+header {
+    margin-top: 3%;
+}
 
 *,
 *::before,
@@ -31,6 +34,15 @@ body {
 h1 {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
+}
+
+#modal-1 {
+    text-align: center;
+}
+
+.btn {
+    text-align: center;
+    width: 100%;
 }
 
 /*
